@@ -1,0 +1,138 @@
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin: 0px auto;
+  padding-top: 50px;
+  display: flex;
+}
+
+.gambar {
+  width: 50%;
+}
+
+.img-thumb{
+  width: 100%;
+}
+
+.logo {
+  width: 180px;
+  text-align: center;
+}
+
+.card-wrapper {
+  width: 50%;
+}
+
+.card{
+  border-style: solid;
+  border-color: #f0f0f0;
+  border-width: 2px;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: 30px;
+}
+
+.input{
+  width: 300px;
+  height: 30px;
+  border: 1px solid #gray;
+  padding: 4px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.card span{
+  color: #d4d3d2;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+span p {
+  position: relative;
+  bottom: 2px;
+  color: #d4d3d2;
+}
+
+.btn{
+  background-color:#0591fc;
+  border: 0px solid transparent;
+  margin-top: 20px;
+  width: 310px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+}
+
+.login-with{
+  color: #385185;
+  text-decoration: none;
+}
+
+.link-forgot{
+  color: #385185;
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.link-signup{
+  text-decoration: none;
+  color: #0591fc;
+}
+
+.store p {
+  width: 350px;
+  text-align: center;
+}
+
+.store{
+  width: 350px;
+  height: 95px;
+  margin-left: 40px;
+
+}
+
+.store img {
+  height: 40px;
+  float: left;
+  display: flex;
+  margin-left: 30px;
+
+}
+
+.footer {
+  margin: 40px auto;
+  padding-bottom: 70px;
+  width: 900px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  color: #8e8e8e;
+  font-size: 12px;
+}
+
+.footer select {
+  border: none;
+  color: #8e8e8e;
+  outline: none;
+  cursor: pointer;
+}
+
+.footer span {
+  cursor: pointer;
+}
